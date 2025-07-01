@@ -7,8 +7,11 @@ function groupAnagram(strs) {
             result[sortedStr] =[];
 
         }else {
-            result[sortedStr].push(str);
+            console.log(result[sortedStr].push(str));
+            
         }
     }
     return Object.values(result);
 }
+
+console.log(groupAnagram(["eat","tea","tan","ate","nat","bat"]))
